@@ -13,7 +13,7 @@ ob_start();
         <!-- les characters sont récupérés du Controller -->
         <?php foreach ($characters as $character) : ?>
 
-            <div class="col-3 mb-3">
+            <div class="col-10 col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3 mx-auto">
                 <div class="card shadow-lg ">
                     <img src="./public/images/avatars/<?= $character['avatar'] ?>" class="card-img-top" alt="...">
                     <div class="card-body">
